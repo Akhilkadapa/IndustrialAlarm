@@ -2,11 +2,11 @@ public class IndustrialAlarm {
 
         package industrial;
 
-import industrial.alarm.EquipmentFailureAlarm;
-import industrial.alarm.FireAlarm;
-import industrial.alarm.SafetyAlarm;
+import industrial.EquipmentFailureAlarm;
+import industrial.FireAlarm;
+import industrial.SafetyAlarm;
 
-        public class Alarmapplication {
+        public class AlarmApplication {
             public static void main(String[] args) {
                 // Creating instances of industrial alarms
                 EquipmentFailureAlarm equipmentFailureAlarm = new EquipmentFailureAlarm("Machine-001");
